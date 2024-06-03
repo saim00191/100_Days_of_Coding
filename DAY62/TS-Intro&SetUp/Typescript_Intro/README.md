@@ -1,0 +1,1 @@
+https://github.com/AsharibAli/100-days-of-code/blob/main/day-62/TS-Intro%20%26%20Setup/typescript-intro.md

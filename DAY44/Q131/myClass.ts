@@ -9,4 +9,3 @@ export class MyClass {
         console.log(`Hello My Name is ${this.name}`);
     }
 }
-

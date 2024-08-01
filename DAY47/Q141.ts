@@ -1,10 +1,14 @@
 
 
 let fetchData = async () => {
-    
-    let DataFetch = await fetchSomething()
 
-    console.log(DataFetch);
+    let url = "https://jsonplaceholder.typicode.com/posts/1"
+
+    let DataFetch = await fetch(url)
+
+    let fetchDataToJson = await DataFetch.json()
+
+    console.log(fetchDataToJson);
 
 }
 

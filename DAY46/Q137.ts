@@ -1,8 +1,10 @@
 
-const myName = "Saim Raza"
+const myName: string = "Saim Raza"
 
 try {
     myName = "Anonymous"
 } catch (error) {
-    console.log("An Error Occurred");
+    console.log("An error occurred ")
 }
+
+console.log(myName)

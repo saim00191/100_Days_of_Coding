@@ -36,13 +36,18 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var _this = this;
 var fetchData = function () { return __awaiter(_this, void 0, void 0, function () {
-    var DataFetch;
+    var url, DataFetch, fetchDataToJson;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0: return [4 /*yield*/, fetchSomething()];
+            case 0:
+                url = "https://jsonplaceholder.typicode.com/posts/1";
+                return [4 /*yield*/, fetch(url)];
             case 1:
                 DataFetch = _a.sent();
-                console.log(DataFetch);
+                return [4 /*yield*/, DataFetch.json()];
+            case 2:
+                fetchDataToJson = _a.sent();
+                console.log(fetchDataToJson);
                 return [2 /*return*/];
         }
     });

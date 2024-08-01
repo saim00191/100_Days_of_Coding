@@ -1,3 +1,5 @@
-for (var i = 1; i <= 10; i++) {
-    console.log("Iteration ".concat(i, ", i value: ").concat(i));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+for (let i = 1; i <= 10; i++) {
+    console.log(`Iteration ${i}, i value: ${i}`);
 }

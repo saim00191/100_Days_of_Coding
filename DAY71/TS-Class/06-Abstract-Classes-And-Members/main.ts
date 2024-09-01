@@ -28,5 +28,5 @@ class Person extends Human{
 const item1: Human = new Person(Human.getNextID(), "Saim");
 const item2: Human = new Person(Human.getNextID(), "Faiz");
 
-console.log(item1.getInfo()); // ID: 1, Name: Widget
+console.log(item1.getInfo()); 
 console.log(item2.getInfo()); 

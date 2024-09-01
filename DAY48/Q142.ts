@@ -8,4 +8,4 @@ const helloWorldPromise = new Promise((resolve) => {
     },2000)
 })
 
-helloWorldPromise.then((message) => console.log(message);)
+helloWorldPromise.then((message) => console.log(message))
